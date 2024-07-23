@@ -59,6 +59,7 @@ const App = () => {
           <li key={name.id}>{name.name} ({name.count})</li>
         ))}
       </ul>
+      
     </div>
   );
 };
